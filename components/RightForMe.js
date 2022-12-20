@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Image from "next/Image";
+import React from "react";
 
 import { BsFillLaptopFill, BsCardChecklist } from "react-icons/bs";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
