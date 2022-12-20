@@ -41,9 +41,9 @@ const JoinCommunity = () => {
             with typing, voice or video.
             <br />
             <br />
-            Come and co-work at 'The beach' or 'The Japanese Garden'! There are
-            group co-working sessions every 2 hours, 24hours a day, 7 days a
-            week.
+            Come and co-work at &apos;The beach&apos; or &apos;The Japanese
+            Garden&apos;! There are group co-working sessions every 2 hours,
+            24hours a day, 7 days a week.
           </p>
 
           <a

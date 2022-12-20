@@ -67,7 +67,7 @@ const RightForMe = () => {
                     You would like to make a website for your business, but
                     would love extra funds to cover the website hosting. Or
                     perhaps you would like to buy extra product stock, but
-                    haven't had the funds.
+                    haven&apos;t had the funds.
                   </p>
                 </div>
               </div>

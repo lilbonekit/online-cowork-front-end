@@ -24,8 +24,8 @@ export default function LandingLottery({ children }) {
             <br />
             <br />
             <div className="box-shadow-n text-coworkdarkbeige text-xl lg:text-2xl font-light p-12 text-center tracking-wider mx-auto">
-              "The productivity of a to-do list with the excitement of a
-              lottery" 🔥
+              &quot;The productivity of a to-do list with the excitement of a
+              lottery&quot; 🔥
             </div>
 
             <div className=" mx-6 text-white my-5 ml-10">
@@ -52,9 +52,9 @@ export default function LandingLottery({ children }) {
             , giving you that extra dose of motivation that you need to succeed.
             <br />
             <br />
-            Simply input a business task (such as 'get to inbox zero') that
-            you&apos;d like to get done, and pay a small fee of your choice to
-            hold yourself accountable (we dare ya!). Doing this will
+            Simply input a business task (such as &apos;get to inbox zero&apos;)
+            that you&apos;d like to get done, and pay a small fee of your choice
+            to hold yourself accountable (we dare ya!). Doing this will
             automatically entitle you to a lottery ticket (or tickets!). The
             draw will take place once a week giving you the chance to win
             valuable funds for your business!

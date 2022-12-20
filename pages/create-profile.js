@@ -370,7 +370,7 @@ export default function CreateProfile({ initialProfiles }) {
                       className="underline"
                       rel="noreferrer"
                     ></a>
-                    https://office.onlinecowork.com to join - it's free.
+                    https://office.onlinecowork.com to join - it&apos;s free.
                   </p>
                 </label>
                 <div className="mt-1 sm:mt-0 sm:col-span-2">
@@ -650,15 +650,15 @@ export default function CreateProfile({ initialProfiles }) {
                   Bio<span className="text-red-500">*</span>
                   <p className="mt-2 text-sm text-gray-400">
                     Let everyone know a little bit about you! Max 500
-                    characters. Example: "Hi! Great to meet you My name is Jane
-                    and I've been a social media manager for the past 5 years. I
-                    have the most experience with Instagram and Facebook, but I
-                    also love working with Pinterest ads. I am a huge coffee
-                    fan, love cuddles with my two puppies and a roadtrip in
-                    Iceland is on my bucketlist! Please don't hesitate to get in
-                    touch with me via my website or social media accounts! Or
-                    grab my freebie a free page PDF guide on how to increase
-                    your engagement on Instagram!"
+                    characters. Example: &quot;Hi! Great to meet you My name is
+                    Jane and I&apos;ve been a social media manager for the past
+                    5 years. I have the most experience with Instagram and
+                    Facebook, but I also love working with Pinterest ads. I am a
+                    huge coffee fan, love cuddles with my two puppies and a
+                    roadtrip in Iceland is on my bucketlist! Please don&apos;t
+                    hesitate to get in touch with me via my website or social
+                    media accounts! Or grab my freebie a free page PDF guide on
+                    how to increase your engagement on Instagram!&quot;
                   </p>
                 </label>
                 <div className="mt-1 sm:mt-0 sm:col-span-2">

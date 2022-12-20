@@ -19,8 +19,9 @@ export default function HowItWorks() {
               Frequently Asked Questions
             </h2>
             <p className="max-w-lg mx-auto mt-6 text-base text-coworkdarkbeige font-nunito font-light">
-              Hi Online CoWorker! We are so excited that you're here.💚 Below
-              you'll find some answers to our most frequently asked questions!
+              Hi Online CoWorker! We are so excited that you&apos;re here.💚
+              Below you&apos;ll find some answers to our most frequently asked
+              questions!
             </p>
           </div>
 
@@ -56,15 +57,15 @@ export default function HowItWorks() {
               </p>
               <p className="mt-3 text-base font-extralight text-coworkdarkbeige sm:mt-6 sm:text-lg font-nunito">
                 If you earn money online, it means you likely have tasks to
-                complete - and you probably wouldn't mind some pocket money to
-                fund your business! This is where the lottery comes in. It aims
-                to help with 2 common issues that plague women with online
+                complete - and you probably wouldn&apos;t mind some pocket money
+                to fund your business! This is where the lottery comes in. It
+                aims to help with 2 common issues that plague women with online
                 businesses - <strong>productivity and funding</strong>. Our
                 founder, Hayley, has travelled to many countries and came across
                 many women who were trying to make a living online. And so
-                Online CoWork was born. (But let's not forget that this is also
-                about having a bit of fun and connecting with like-minded people
-                from around the world!)
+                Online CoWork was born. (But let&apos;s not forget that this is
+                also about having a bit of fun and connecting with like-minded
+                people from around the world!)
               </p>
             </div>
 
@@ -94,10 +95,10 @@ export default function HowItWorks() {
                 The Online CoWork lottery is aimed at helping{" "}
                 <strong>women and non-binary people specifically</strong> - as
                 this is a demographic that has historically been marginalized.
-                However, we didn't create Online CoWork to discriminate based on
-                gender! If you don't identify as female/non-binary, you are
-                welcome to participate if you feel that our platform could be of
-                use to you!
+                However, we didn&apos;t create Online CoWork to discriminate
+                based on gender! If you don&apos;t identify as
+                female/non-binary, you are welcome to participate if you feel
+                that our platform could be of use to you!
               </p>
             </div>
 
@@ -111,9 +112,9 @@ export default function HowItWorks() {
                   If this is your first time participating, you will please need
                   to register for the lottery by creating a profile.{" "}
                 </strong>{" "}
-                You can access the profile form by clicking the 'Start Here'
-                button at the top of the page (Note: Your wallet needs to be
-                connected in order to see this button).
+                You can access the profile form by clicking the &apos;Start
+                Here&apos; button at the top of the page (Note: Your wallet
+                needs to be connected in order to see this button).
                 <br />
                 <br />
                 Once you have completed this form, we will manually approve it
@@ -124,7 +125,7 @@ export default function HowItWorks() {
                 lottery right away.
                 <br />
                 <br />
-                2) To add your first business task that you've been
+                2) To add your first business task that you&apos;ve been
                 procrastinating about completing, make sure that{" "}
                 <strong>you have a free crypto wallet</strong> and that it{" "}
                 <strong>has a few MATIC coins</strong> in it (more on this
@@ -140,7 +141,7 @@ export default function HowItWorks() {
                 >
                   make sure that it is on the Polygon Network
                 </a>
-                ) and you'll see a box where you can add your task.{" "}
+                ) and you&apos;ll see a box where you can add your task.{" "}
                 <strong>Type your task into the box</strong>. You will also need
                 to add an amount in MATIC that you believe would personally give
                 you some extra accountability to get the task done. 1 MATIC is
@@ -172,41 +173,41 @@ export default function HowItWorks() {
                 that could be you!) will win each week.
                 <br />
                 <br />
-                Next, push the button to "Get it done!".
+                Next, push the button to &quot;Get it done!&quot;.
                 <br />
                 <br />
-                4) When you push the button, your wallet will pop up and you'll
-                be asked to <strong>confirm the transaction</strong>. To add a
-                transaction on the blockchain, you will also need to pay a tiny
-                'gas fee' which is usually less than $0.01c. This will be
-                calculated automatically when you make your transaction. Please
-                keep in mind that the gas fee can change and we have no control
-                over this as it is a fee required for the Polygon Network and
-                has nothing to do with Online CoWork.
+                4) When you push the button, your wallet will pop up and
+                you&apos;ll be asked to <strong>confirm the transaction</strong>
+                . To add a transaction on the blockchain, you will also need to
+                pay a tiny &apos;gas fee&apos; which is usually less than
+                $0.01c. This will be calculated automatically when you make your
+                transaction. Please keep in mind that the gas fee can change and
+                we have no control over this as it is a fee required for the
+                Polygon Network and has nothing to do with Online CoWork.
                 <br />
                 <br />
                 5) Once the transaction has been confirmed,{" "}
                 <strong>
                   you should see it appear in the task feed below the form
                 </strong>
-                . Now go, go go - <strong>get your task done!</strong> You'll be
-                able to see the tasks of others appearing in the task feed as
-                well, and this will also hopefully help to motivate you to get
-                working!
+                . Now go, go go - <strong>get your task done!</strong>{" "}
+                You&apos;ll be able to see the tasks of others appearing in the
+                task feed as well, and this will also hopefully help to motivate
+                you to get working!
                 <br />
                 <br />
                 6) The 1 MATIC that each person pays for each task gets{" "}
                 <strong>
-                  pooled together to create the lottery "winnings"
+                  pooled together to create the lottery &quot;winnings&quot;
                 </strong>
-                . These winnings will be distributed to one random "Online
-                CoWorker" every 7 days to provide funding for their online
+                . These winnings will be distributed to one random &quot;Online
+                CoWorker&quot; every 7 days to provide funding for their online
                 business - to pay for things such as website hosting, shopify
                 fees, extra product stock, etc. Or alternatively, if the Online
-                CoWorker doesn't have an online business, it could be used to
-                pay for educational courses for professional/personal
-                development - but it's up to you! The money is yours to use for
-                anything that would help you to move forwards in your life.
+                CoWorker doesn&apos;t have an online business, it could be used
+                to pay for educational courses for professional/personal
+                development - but it&apos;s up to you! The money is yours to use
+                for anything that would help you to move forwards in your life.
                 <br />
                 <br />
                 8) The lottery prize will be reset each week.
@@ -214,17 +215,17 @@ export default function HowItWorks() {
                 <br />
                 9) We will decide how many winners there are per week. Usually
                 it will be 1 to 3 winners per week. if you win, please note that
-                you won't be able to win for the next draw so as to allow others
-                to win as well. You may still participate in the lottery for
-                accountability for your tasks and to support other women in
+                you won&apos;t be able to win for the next draw so as to allow
+                others to win as well. You may still participate in the lottery
+                for accountability for your tasks and to support other women in
                 business, but your wallet address will be hidden for 1 week.
               </p>
             </div>
 
             <div>
               <p className="text-xl font-bold text-white sm:text-2xl font-nunito">
-                Ok, I'm intrigued! So, how do I go about getting a free wallet
-                and loading it with MATIC?
+                Ok, I&apos;m intrigued! So, how do I go about getting a free
+                wallet and loading it with MATIC?
               </p>
               <p className="mt-3 text-base font-extralight text-coworkdarkbeige sm:mt-6 sm:text-lg font-nunito">
                 1) a) COINBASE WALLET: There are many different kinds of crypto
@@ -282,7 +283,7 @@ export default function HowItWorks() {
                   Metamask
                 </a>
                 . This takes 2 minutes to set up (and does not require any ID
-                verification), so it's great for getting started quickly to
+                verification), so it&apos;s great for getting started quickly to
                 create your lottery profile. But while you can buy MATIC
                 directly in this wallet, you cannot withdraw your winnings to
                 your bank account. You would still need to transfer your
@@ -336,8 +337,8 @@ export default function HowItWorks() {
                 >
                   easy instructions
                 </a>{" "}
-                using a bridge called "Wallet Connect". However, ZenGo may not
-                be supported in your country so please check this!
+                using a bridge called &quot;Wallet Connect&quot;. However, ZenGo
+                may not be supported in your country so please check this!
                 <br />
                 <br />
                 DISCLAIMER: By giving these wallet suggestions we are not
@@ -348,8 +349,8 @@ export default function HowItWorks() {
                 <br />
                 <br />
                 2) Once you have a wallet, you would need to make sure that you
-                have added the <strong>"Polygon" network</strong>. Please see
-                steps{" "}
+                have added the <strong>&quot;Polygon&quot; network</strong>.
+                Please see steps{" "}
                 <a
                   href="https://wiki.polygon.technology/docs/develop/metamask/config-polygon-on-metamask"
                   className="underline"
@@ -410,7 +411,7 @@ export default function HowItWorks() {
                 >
                   here
                 </a>{" "}
-                for instructions. (Choose the 'extension' tab to learn
+                for instructions. (Choose the &apos;extension&apos; tab to learn
                 specifically about buying through the Chrome extension.)
                 <br />
                 <br />
@@ -429,10 +430,11 @@ export default function HowItWorks() {
                 <br />
                 <br />
                 NOTE: Each wallet (and your bank) charges a fee for exchanging
-                regular currency (called 'fiat' - AUD, USD, etc) into crypto.
-                And you will be charged again when you convert your crypto back
-                to fiat currency. This fee can range from 1 to 3% - please check
-                the fees for your personal wallet provider and your bank.
+                regular currency (called &apos;fiat&apos; - AUD, USD, etc) into
+                crypto. And you will be charged again when you convert your
+                crypto back to fiat currency. This fee can range from 1 to 3% -
+                please check the fees for your personal wallet provider and your
+                bank.
                 <br />
                 <br />
                 Also,{" "}
@@ -449,11 +451,11 @@ export default function HowItWorks() {
                 >
                   bottom of your Metamask screen
                 </a>{" "}
-                and you will see a button "Import Token". Click that and paste
-                this contract address for Polygon Matic:
-                0x0000000000000000000000000000000000001010, then click 'Add
-                Custom Token'. Now, your MATIC coins should be visible in your
-                wallet under 'Assets'.
+                and you will see a button &quot;Import Token&quot;. Click that
+                and paste this contract address for Polygon Matic:
+                0x0000000000000000000000000000000000001010, then click &apos;Add
+                Custom Token&apos;. Now, your MATIC coins should be visible in
+                your wallet under &apos;Assets&apos;.
                 <br />
                 <br />
                 4) If you have any problems or if you would like someone to help
@@ -472,14 +474,15 @@ export default function HowItWorks() {
               </p>
               <p className="mt-3 text-base font-extralight text-coworkdarkbeige sm:mt-6 sm:text-lg font-nunito">
                 Unfortunately, it is impossible for us to know if you actually
-                completed your task or not. If all users "complete" their tasks,
-                this would mean that there would be no money to giveaway in the
-                lottery. So this wouldn't work. Having said this, if you know
-                that you won't be getting your money back, this provides extra
-                accountability for you to commit to getting your task done. So
-                by participating, you benefit in 2 ways - you receive extra
-                accountability to get your task done AND you get a lottery
-                ticket for the chance to win funds for your business! 🥳
+                completed your task or not. If all users &quot;complete&quot;
+                their tasks, this would mean that there would be no money to
+                giveaway in the lottery. So this wouldn&apos;t work. Having said
+                this, if you know that you won&apos;t be getting your money
+                back, this provides extra accountability for you to commit to
+                getting your task done. So by participating, you benefit in 2
+                ways - you receive extra accountability to get your task done
+                AND you get a lottery ticket for the chance to win funds for
+                your business! 🥳
               </p>
             </div>
 
@@ -494,13 +497,14 @@ export default function HowItWorks() {
                 emailing 3 clients, creating an SEO strategy, making an
                 Instagram post - or even cleaning your desk or getting to inbox
                 zero! You could add one task a week or you could add 10 tasks a
-                day - it's up you! The more tasks you add, the more incentive
-                you'll have to get your tasks done, the more you'll move
-                forwards in your business and the more chances you'll have of
-                winning the lottery - AND the higher the lottery prize pool will
-                be! Feel good knowing that you're getting your tasks done - and
-                even if you don't win the prize money, you'll be helping another
-                Online CoWorker to reach their dreams!
+                day - it&apos;s up you! The more tasks you add, the more
+                incentive you&apos;ll have to get your tasks done, the more
+                you&apos;ll move forwards in your business and the more chances
+                you&apos;ll have of winning the lottery - AND the higher the
+                lottery prize pool will be! Feel good knowing that you&apos;re
+                getting your tasks done - and even if you don&apos;t win the
+                prize money, you&apos;ll be helping another Online CoWorker to
+                reach their dreams!
               </p>
             </div>
 
@@ -517,24 +521,26 @@ export default function HowItWorks() {
 
             <div>
               <p className="text-xl font-bold text-white sm:text-2xl font-nunito">
-                Will you let us know if we've won?
+                Will you let us know if we&apos;ve won?
               </p>
               <p className="mt-3 text-base font-extralight text-coworkdarkbeige sm:mt-6 sm:text-lg font-nunito">
                 Unfortunately, as crypto wallets do not have identity associated
                 with them, we are unable to let you know - you would need to go
                 into your wallet every now and again to check! Or head to our
-                home page where we'll usually display the winner/s at the top!
+                home page where we&apos;ll usually display the winner/s at the
+                top!
               </p>
             </div>
 
             <div>
               <p className="text-xl font-bold text-white sm:text-2xl font-nunito">
-                I love what you're doing and I'd like to donate to the lottery
-                directly. How do I do this?
+                I love what you&apos;re doing and I&apos;d like to donate to the
+                lottery directly. How do I do this?
               </p>
               <p className="mt-3 text-base font-extralight text-coworkdarkbeige sm:mt-6 sm:text-lg font-nunito">
-                That's amazing! We appreciate you! On the home page, you'll see
-                a button to donate directly to that week's lottery.
+                That&apos;s amazing! We appreciate you! On the home page,
+                you&apos;ll see a button to donate directly to that week&apos;s
+                lottery.
               </p>
             </div>
 
@@ -599,10 +605,10 @@ export default function HowItWorks() {
                   here
                 </a>{" "}
                 to post a link to your blogs, Etsy products, workshops, quizzes,
-                freebies, etc! It's free. Also, if you'd like to advertise
-                within our discord community (or perhaps host workshops within
-                our Discord community), please contact us at info (at)
-                onlinecowork.com.
+                freebies, etc! It&apos;s free. Also, if you&apos;d like to
+                advertise within our discord community (or perhaps host
+                workshops within our Discord community), please contact us at
+                info (at) onlinecowork.com.
               </p>
             </div>
 
@@ -614,9 +620,9 @@ export default function HowItWorks() {
                 The most important thing that you need to know right now is that
                 while blockchain technology is extremely useful and is changing
                 the face of many industries such as healthcare, finance, etc,
-                security is extremely important! If you'd like to learn more
-                about how to keep the funds in your Metamask wallet safe, please
-                read{" "}
+                security is extremely important! If you&apos;d like to learn
+                more about how to keep the funds in your Metamask wallet safe,
+                please read{" "}
                 <a
                   href="https://www.alphr.com/metamask-got-hacked/"
                   className="underline"
@@ -629,13 +635,14 @@ export default function HowItWorks() {
                 <br />
                 <br />
                 It is a good idea to not use your Metamask wallet while on
-                public wifi, don't click on any suspicious links in your emails
-                or online and never give your secret phrase to anyone. It is
-                also a good idea to avoid keeping large amounts of money in your
-                Metamask account. Please note that in the unlikely event that
-                your Metamask wallet gets hacked and you lose your money, we
-                cannot be held responsible. But the risk is small and know that
-                over 20 million people use Metamask to keep their funds safe!
+                public wifi, don&apos;t click on any suspicious links in your
+                emails or online and never give your secret phrase to anyone. It
+                is also a good idea to avoid keeping large amounts of money in
+                your Metamask account. Please note that in the unlikely event
+                that your Metamask wallet gets hacked and you lose your money,
+                we cannot be held responsible. But the risk is small and know
+                that over 20 million people use Metamask to keep their funds
+                safe!
               </p>
             </div>
 
@@ -646,8 +653,8 @@ export default function HowItWorks() {
                 Pay, bank transfer, etc?
               </p>
               <p className="mt-3 text-base font-extralight text-coworkdarkbeige sm:mt-6 sm:text-lg font-nunito">
-                There are a few ways that you can 'earn' crypto online - we
-                found{" "}
+                There are a few ways that you can &apos;earn&apos; crypto online
+                - we found{" "}
                 <a
                   href="https://geekflare.com/finance/earn-free-crypto/"
                   className="underline"

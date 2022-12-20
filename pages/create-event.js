@@ -339,8 +339,9 @@ export default function CreateEvent({ initialEvents }) {
                   Event Cost<span className="text-red-500">*</span>
                   <p className="mt-1 max-w-2xl text-sm text-gray-400">
                     Add the cost of your event here. If it is free, write
-                    'Free'. If you are writing an amount in dollars, please say
-                    the country name before the dollar sign - e.g. US$10
+                    &apos;Free&apos;. If you are writing an amount in dollars,
+                    please say the country name before the dollar sign - e.g.
+                    US$10
                   </p>
                 </label>
                 <div className="mt-1 sm:mt-0 sm:col-span-2">
