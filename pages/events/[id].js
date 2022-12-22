@@ -2,6 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { minifyItems, eventAirtable } from "../../utils/airtable";
+import { BiTimeFive, BiUser } from "react-icons/bi";
+import { BsCalendarDate } from "react-icons/bs";
+import { ImPriceTags } from "react-icons/im";
+import { format } from "date-fns";
 
 function MemberEvent({ event }) {
   const { query } = useRouter();
@@ -43,8 +47,8 @@ function MemberEvent({ event }) {
         <div className="flex items-center mt-4 mb-9">
           <div className="ml-10">
             {/* <h6 className="mb-2">{formatTimestamp(event.eventTimestamp)}</h6> */}
-            <h6 className="mb-2 text-coworkdarkbeige">{fields?.eventCost}</h6>
-            <h1 className="pt-1 pb-2 text-4xl tracking-tight font-extrabold  sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl text-white">
+            {/* <h6 className="mb-2 text-coworkdarkbeige">{fields?.eventCost}</h6> */}
+            <h1 className="pt-1 pb-2 text-4xl tracking-tight font-extrabold text-white sm:text-2xl md:text-5xl lg:text-5xl xl:text-5x">
               {fields?.eventTitle}
             </h1>
           </div>
@@ -90,24 +94,31 @@ function MemberEvent({ event }) {
               </a>
             </div>
 
-            <div className="flex item-center justify-center py-4">
-              {/* <CheckIcon className="w-6 mr-2" /> */}
-              <span className="truncate text-center lg:text-left xl:text-left">
-                {fields?.eventDate}
+            <div className="flex item-center justify-center py-2">
+              <BsCalendarDate className="w-6 mr-2 mt-1 text-white" />
+              <span className="truncate text-center lg:text-left xl:text-left text-white">
+                {format(new Date(fields?.eventDate), "PPP")}
               </span>
             </div>
 
-            <div className="flex item-center justify-center py-4">
-              {/* <CheckIcon className="w-6 mr-2" /> */}
-              <span className="truncate text-center lg:text-left xl:text-left">
-                {fields?.eventTime}
+            <div className="flex item-center justify-center py-2">
+              <BiTimeFive className="w-6 mr-2 mt-1 text-white" />
+              <span className="truncate text-center lg:text-left xl:text-left text-white">
+                {fields?.eventTime}&nbsp;UCT
               </span>
             </div>
 
-            <div className="flex item-center justify-center py-4">
-              {/* <CheckIcon className="w-6 mr-2" /> */}
-              <span className="truncate text-center lg:text-left xl:text-left">
-                Hosted by {fields?.eventHost}
+            <div className="flex item-center justify-center py-2">
+              <ImPriceTags className="w-6 mr-2 mt-1 text-white" />
+              <span className="truncate text-center lg:text-left xl:text-left text-white">
+                {fields?.eventCost}
+              </span>
+            </div>
+
+            <div className="flex item-center justify-center py-2">
+              <BiUser className="w-6 mr-2 mt-1 text-white" />
+              <span className="truncate text-center lg:text-left xl:text-left text-white">
+                Hosted by <strong>{fields?.eventHost}</strong>
               </span>
             </div>
 

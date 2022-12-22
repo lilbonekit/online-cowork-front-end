@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { format } from "date-fns";
 
 export default function EventCard({ event }) {
   const { id, fields } = event;
@@ -13,9 +14,11 @@ export default function EventCard({ event }) {
           <Image src={fields?.eventImage} alt="event image" layout="fill" />
         )}
       </div>
-      <h5 className="block text-md font-light text-coworkdarkbeige py-3">
-        {fields?.eventTitle} - {fields?.eventDate}
+      <h5 className="block text-md font-light text-coworkdarkbeige py-1 pt-3">
+        {format(new Date(fields?.eventDate), "PPP")} - {fields?.eventTime}
+        &nbsp;UCT
       </h5>
+      <h3 className="text-white text-md font-light ">{fields?.eventTitle}</h3>
     </div>
   );
 }

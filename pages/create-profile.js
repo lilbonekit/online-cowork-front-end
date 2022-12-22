@@ -132,7 +132,7 @@ export default function CreateProfile({ initialProfiles }) {
     );
     setTimeout(() => {
       router.push("/");
-    }, 10000);
+    }, 6000);
   };
 
   useEffect(() => {
@@ -219,8 +219,9 @@ export default function CreateProfile({ initialProfiles }) {
               <br />
               NOTE: Please be mindful of formatting and punctuation when
               completing this form as your info will not be edited before
-              publishing live on the site. You may also edit your profile later
-              on.
+              publishing live on the site. Having said this, if you need to edit
+              or delete your profile, please contact us at info (at) online
+              cowork.com.
             </p>
           </div>
         )}

@@ -42,12 +42,20 @@ export default function Lottery({ tasks, profiles, approvedProfiles }) {
       toast.error("Please add a task with at least 1 Matic!");
     else {
       if (
+        profiles.filter(
+          (profile) => profile.fields.walletAddress === account.address
+        ).length === 0
+      ) {
+        toast.warn("You are not registered. Please create a profile first!");
+        return;
+      }
+      if (
         approvedProfiles.filter(
           (approvedProfile) =>
             approvedProfile.fields.walletAddress === account.address
         ).length === 0
       ) {
-        toast.warn("You are not registered. Please create a profile first!");
+        toast.warn("You are not approved. Please contact to Admin!");
         return;
       }
       setSpin(true);
@@ -346,8 +354,6 @@ export async function getServerSideProps(context) {
 
     const profiles = await profileAirtable
       .select({
-        // Selecting the first 50 records in Grid view:
-        maxRecords: 50,
         view: "Grid view",
       })
       .all();

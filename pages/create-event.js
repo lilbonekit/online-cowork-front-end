@@ -98,7 +98,7 @@ export default function CreateEvent({ initialEvents }) {
     );
     setTimeout(() => {
       router.push("/");
-    }, 10000);
+    }, 6000);
   };
 
   useEffect(() => {
@@ -171,8 +171,9 @@ export default function CreateEvent({ initialEvents }) {
               <br />
               NOTE: Please be mindful of formatting and punctuation when
               completing this form as your info will not be edited before
-              publishing live on the site. You may <strong>not</strong> edit
-              your event later on.
+              publishing live on the site. Having said this, if you need to edit
+              or delete your event, please contact us at info (at) online
+              cowork.com.
             </p>
           </div>
         )}
@@ -287,47 +288,36 @@ export default function CreateEvent({ initialEvents }) {
                   htmlFor="eventDate"
                   className="block text-sm font-medium text-white sm:mt-px sm:pt-2"
                 >
-                  Event Date<span className="text-red-500">*</span>
+                  Event Date & Time <span className="text-red-500">*</span>
                   <p className="mt-1 max-w-2xl text-sm text-gray-400">
-                    Write the date of your event
+                    Please add event date and time (in UCT timezone!). Please
+                    include AM or PM.
                   </p>
                 </label>
-                <div className="mt-1 sm:mt-0 sm:col-span-2">
-                  <input
-                    id="eventDate"
-                    name="eventDate"
-                    type="text"
-                    className="block max-w-lg w-full box-shadow-n focus:ring-coworkdarkbeige focus:border-coworkdarkbeige sm:text-sm border border-gray-300 rounded-md text-white"
-                    required
-                    value={eventDate}
-                    onChange={(e) => setEventDate(e.target.value)}
-                    placeholder="January 20, 2022"
-                  />
-                </div>
-              </div>
-
-              <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
-                <label
-                  htmlFor="eventTime"
-                  className="block text-sm font-medium text-white sm:mt-px sm:pt-2"
-                >
-                  Event Time<span className="text-red-500">*</span>
-                  <p className="mt-1 max-w-2xl text-sm text-gray-400">
-                    Write the time of your event - PLEASE BE SURE TO INCLUDE THE
-                    TIMEZONE
-                  </p>
-                </label>
-                <div className="mt-1 sm:mt-0 sm:col-span-2">
-                  <input
-                    id="eventTime"
-                    name="eventTime"
-                    type="text"
-                    className="block max-w-lg w-full box-shadow-n focus:ring-coworkdarkbeige focus:border-coworkdarkbeige sm:text-sm border border-gray-300 rounded-md text-white"
-                    value={eventTime}
-                    onChange={(e) => setEventTime(e.target.value)}
-                    placeholder="2pm PST (don't forget the timezone!)"
-                    required
-                  />
+                <div className="mt-1 sm:mt-0 flex flex-wrap sm:flex-nowrap gap-2">
+                  <div className="w-1/2">
+                    <input
+                      id="eventDate"
+                      name="eventDate"
+                      type="date"
+                      className="block max-w-lg w-full box-shadow-n focus:ring-coworkdarkbeige focus:border-coworkdarkbeige sm:text-sm border border-gray-300 rounded-md text-white"
+                      required
+                      value={eventDate}
+                      onChange={(e) => setEventDate(e.target.value)}
+                    />
+                  </div>
+                  <div className="w-5/6">
+                    <input
+                      id="eventTime"
+                      name="eventTime"
+                      type="text"
+                      className="block max-w-lg w-full box-shadow-n focus:ring-coworkdarkbeige focus:border-coworkdarkbeige sm:text-sm border border-gray-300 rounded-md text-white"
+                      required
+                      value={eventTime}
+                      onChange={(e) => setEventTime(e.target.value)}
+                      placeholder="eg. 2pm - IN UCT TIME ZONE"
+                    />
+                  </div>
                 </div>
               </div>
 

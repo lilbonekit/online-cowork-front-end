@@ -107,8 +107,7 @@ export async function getServerSideProps() {
     const aproovedEvents = events
       .filter((event) => event.fields.approved === "yes")
       .sort(
-        (a, b) =>
-          new Date(a.fields.createdTime) - new Date(b.fields.createdTime)
+        (a, b) => new Date(a.fields.eventDate) - new Date(b.fields.eventDate)
       );
     return {
       props: {

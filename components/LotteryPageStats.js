@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
+import moment from "moment/moment";
 // import { HiOutlineInformationCircle } from "react-icons/hi";
 // import { GiPartyPopper } from "react-icons/gi";
 import { LotteryContext } from "../context/lottery";
@@ -83,7 +84,11 @@ const LotteryPageStats = ({ initialItems, approvedProfiles }) => {
 
           <div className="pt-8 pb-4 mt-3 lg:mt-0 lg:pl-8 lg:border-t lg:border-l lg:border-gray-200 border-l-transparent border-t-transparent sm:pt-12 ">
             <p className="text-4xl pb-4 lg:text-5xl font-semibold tracking-tight text-coworkdarkbeige">
-              27 May 2022
+              {!lotteryState
+                ? `${moment().format("DD MMM YYYY")}`
+                : `${moment
+                    .unix(lotteryState.lastTimeStamp + lotteryState.interval)
+                    .format("DD MMM YYYY")}`}
             </p>
             <h3 className="mt-3 text-base font-light text-white">
               Next Draw - {lotteryState ? lotteryState.numberOfWinners : 1}

@@ -34,8 +34,8 @@ export default function LandingEvents({ children }) {
           <p className="mt-5 text-base text-gray-500 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0 font-extralight">
             Are you hosting an online event? A workshop, coffee chat, networking
             event, meditation class, yoga class, webinar, AMA, etc? Add it to
-            our events directory at no cost below! *Note: It is not necessary to
-            create a profile before adding an event.
+            our events directory at no cost below! *Note: Please connect your
+            wallet to create an event!
           </p>
         </div>
       </section>

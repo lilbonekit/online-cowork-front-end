@@ -13,6 +13,7 @@ const LotteryProvider = ({ children }) => {
       const balance = await lotteryContract.getBalance();
       const entranceFee = await lotteryContract.getEntranceFee();
       const interval = await lotteryContract.getInterval();
+      const lastTimeStamp = await lotteryContract.getLatestTimeStamp();
       const players = await lotteryContract.getPlayers();
       const recentWinners = await lotteryContract.getRecentWinners();
       const recentWinningAmounts =
@@ -26,6 +27,7 @@ const LotteryProvider = ({ children }) => {
         balance: ethers.utils.formatEther(balance),
         entranceFee: ethers.utils.formatEther(entranceFee),
         interval: parseInt(interval),
+        lastTimeStamp: parseInt(lastTimeStamp),
         players,
         recentWinners,
         recentWinningAmounts: recentWinningAmounts.map((amount) =>
@@ -43,6 +45,7 @@ const LotteryProvider = ({ children }) => {
   };
 
   const listenLotteryEvents = () => {
+    console.log("listen Lottery events!!!");
     lotteryContract.on("PlayerEnteredToLottery", async (player) => {
       console.log("PlayerEnteredToLottery:", player);
       await getLotteryState();

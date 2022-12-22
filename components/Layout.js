@@ -6,10 +6,10 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { LotteryContext } from "../context/lottery";
 import lotteryABI from "../constants/lotteryABI.json";
-import { formatAddress } from "../utils/formatAddress";
+// import { formatAddress } from "../utils/formatAddress";
 
 const Layout = ({ children }) => {
-  const { data: account } = useAccount();
+  // const { data: account } = useAccount();
   const { activeChain, switchNetwork } = useNetwork();
   const provider = useProvider();
   const contract = useContract({
@@ -22,14 +22,13 @@ const Layout = ({ children }) => {
     lotteryContract,
     setLotteryContract,
     lotteryState,
-    setLotteryState,
     getLotteryState,
     listenLotteryEvents,
   } = useContext(LotteryContext);
 
   const [maticPrice, setMaticPrice] = useState(0);
   const [description, setDescription] = useState(
-    "Please connect your Wallet at first!"
+    "Loading last week's Winners..."
   );
 
   useEffect(() => {
@@ -43,6 +42,7 @@ const Layout = ({ children }) => {
     };
 
     getPrice();
+    setLotteryContract(contract);
   }, []);
 
   useEffect(() => {
@@ -55,15 +55,6 @@ const Layout = ({ children }) => {
   }, [activeChain]);
 
   useEffect(() => {
-    if (contract && account && provider._network.chainId === 80001)
-      setLotteryContract(contract);
-    if (!account) {
-      setLotteryContract(null);
-      setLotteryState(null);
-    }
-  }, [account, contract, provider]);
-
-  useEffect(() => {
     if (lotteryContract) {
       listenLotteryEvents();
       getLotteryState();
@@ -74,31 +65,34 @@ const Layout = ({ children }) => {
     console.log("lotteryState:", lotteryState);
     if (lotteryState) {
       if (lotteryState.recentWinners.length > 0) {
-        let address = "";
-        lotteryState.recentWinners.forEach((winner) => {
-          address += formatAddress(winner) + ", ";
-        });
+        // let address = "";
+        // lotteryState.recentWinners.forEach((winner) => {
+        //   address += formatAddress(winner) + ", ";
+        // });
         setDescription(
-          `A huge congrats to last week's winner/s: ${address}(~USD ${(
+          `Last week ${
+            lotteryState.recentWinners.length
+          } lucky Online CoWorkers won ~USD ${(
             maticPrice * lotteryState.recentWinningAmounts[0]
-          ).toFixed(2)} = ${Number(
-            lotteryState.recentWinningAmounts[0]
-          ).toFixed(2)} Matic each)`
+          ).toFixed(2)} each! Please check your wallets. Congrats!`
+          // `A huge congrats to last week's winner/s: ${address}(~USD ${(
+          //   maticPrice * lotteryState.recentWinningAmounts[0]
+          // ).toFixed(2)} = ${Number(
+          //   lotteryState.recentWinningAmounts[0]
+          // ).toFixed(2)} Matic each)`
         );
       } else
         setDescription(
           "Our first draw is coming up, add your tasks to get a ticket!"
         );
-    } else setDescription("Please connect your wallet!");
+    } else setDescription("Loading last week's Winners...");
   }, [lotteryState]);
 
   return (
     <div className="font-nunito flex flex-col min-h-screen font-light">
       <div className="mb-2 flex items-center justify-center text-center p-1 bg-blend-soft-light  bg-gradient-to-r from-[#7928ca] to-[#ff0080]">
         <h3 className="text-white text-sm ">{description}</h3>{" "}
-        {/* {account.slice(0, 6)}...
-                            {account.slice(account.length - 4)} */}
-        <div className="text-white p-1">
+        <div className="text-white p-1 px-2">
           <GiPartyPopper size={"2em"} />
         </div>
       </div>
