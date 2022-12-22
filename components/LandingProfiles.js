@@ -20,9 +20,9 @@ export default function LandingProfiles({ children }) {
             Support our members from around the world! Search for virtual
             assistants, social media managers, online yoga instructors, business
             coaches, online lawyers, online accountants, software developers,
-            website designers, Etsy sellers and more... click the 'Start Here'
-            button in the menu above after connecting your wallet to create your
-            profile.
+            website designers, Etsy sellers and more... click the &apos;Start
+            Here&apos; button in the menu above after connecting your wallet to
+            create your profile.
           </p>
         </div>
       </section>
